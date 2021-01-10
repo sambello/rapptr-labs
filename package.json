@@ -1,0 +1,27 @@
+{
+    "name": "rapptr-labs-coding-test",
+    "version": "1.0.0",
+    "description": "Coding exam for Rapptr Labs in Jersey City, NJ.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "client": "cd client && npm run start",
+        "install": "cd client && npm install",
+        "build": "cd client && npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sambello/rappter-labs-coding-exam.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sambello/rappter-labs-coding-exam/issues"
+    },
+    "homepage": "https://github.com/sambello/rappter-labs-coding-exam#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1"
+    }
+}

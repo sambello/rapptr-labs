@@ -1,0 +1,210 @@
+button {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Header */
+
+.landing-header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header-background-image {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.login-button {
+    position: absolute;
+    top: 32px;
+    right: 80px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.login-button:hover {
+    cursor: pointer;
+}
+
+.header-logo {
+    width: 22%;
+    margin: 0 auto;
+    padding: 18% 39% 32px;
+}
+
+.agency-title {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0 230px;
+}
+
+
+/* Rapptr Description */
+
+.rapptr-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.who-we-are {
+    color: #2FCBFC;
+    margin: 0;
+    padding: 80px 160px;
+    text-align: right;
+    width: 30%;
+}
+
+.description-paragraphs {
+    width: 70%;
+    margin: 0;
+    padding: 80px 0;
+}
+
+.description-paragraphs p {
+    width: 80%;
+    margin: 0;
+}
+
+
+/* Our Apps */
+
+.our-apps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 80px 0;
+    width: 100%;
+    background-color: #2F2E2E;
+}
+
+.our-apps h2 {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 64px;
+}
+
+.app-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+.applications {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    padding: 0 40.5px;
+    width: 20%;
+    max-width: 220px;
+}
+
+.applications a {
+    text-decoration: none;
+}
+
+.applications a:visited {
+    text-decoration: none;
+    color: none;
+}
+
+.applications img {
+    width: 100%;
+}
+
+.applications h5 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+/* Newsletter Subscription */
+
+.newsletter-subscription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 88px 0 90px;
+}
+
+.newsletter-subscription h2 {
+    color: #2FCBFC;
+    margin: 0;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.subscription-email-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 49px;
+    width: 441px;
+    background-color: orange;
+}
+
+.subscription-email-input input {
+    margin: 0;
+    padding: 0 0 0 20px;
+    width: 256px;
+    border: #E8E8E8 1px solid;
+    border-radius: 0;
+    font-weight: 500;
+}
+
+.subscribe-button {
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: 600;
+    text-align: center;
+    width: 165px;
+}
+
+.subscribe-button:hover {
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    margin: 0;
+    padding: 29px 0;
+    font-weight: 500;
+    background-color: #E8E8E8;
+}

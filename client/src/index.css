@@ -1,0 +1,34 @@
+body {
+    font-family: "Avenir Next" !important;
+    margin: 0;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #1B1E1F;
+}
